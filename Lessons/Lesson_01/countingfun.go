@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-   ctr := 0
-   for ctr < 10 {
-      fmt.Println("ctr: ", ctr)
-      ctr += 1
-   }
+	ctr := 0
+	for ctr < 12 {
+		fmt.Println("say I love you: ", ctr)
+		ctr += 1
+	}
 }

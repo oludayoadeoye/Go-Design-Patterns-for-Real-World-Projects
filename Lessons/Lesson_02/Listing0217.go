@@ -6,4 +6,6 @@ import "fmt"
 
 func main() {
    var output string = "I love Go!"
+
+   fmt.Println("say what you really like about gou : ", output, " ", "  am sure you do")
 }
