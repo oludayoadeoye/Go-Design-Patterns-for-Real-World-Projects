@@ -1,16 +1,25 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
-   var firstNumber string
-   var secondNumber string
+	var firstNumber string
+	var secondNumber string
 
-   fmt.Print("Enter the first integer: ") // user prompt
-   fmt.Scan(&firstNumber) // store input
+	var firstNumInt int
+	var secondNumInt int
 
-   fmt.Print("Enter the second integer: ")
-   fmt.Scan(&secondNumber)
+	fmt.Print("Enter the first gifted number: ") // user prompt
+	fmt.Scan(&firstNumber)                       // store input
 
-   fmt.Println(firstNumber + secondNumber) // addition of two strings
+	fmt.Print("Enter the second gifted number: ")
+	fmt.Scan(&secondNumber)
+
+	firstNumInt, _ = strconv.Atoi(firstNumber) // convert to int
+	secondNumInt, _ = strconv.Atoi(secondNumber)
+
+	fmt.Println(firstNumInt + secondNumInt) // addition of two strings
 }

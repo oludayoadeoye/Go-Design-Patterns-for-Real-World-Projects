@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-   var color string = "Yellow"
+   var color string = "yiddish"
 
    switch(color){
    case "Red", 
