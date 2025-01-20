@@ -20,7 +20,7 @@ func main() {
 
    //calculate taxable income
    var taxableIncome float64
-   taxableIncome = grossIncome - 12200 - (2000 * numDep)
+   taxableIncome = grossIncome - float64(12200) - float64(2000 * numDep)
    fmt.Print("Your taxable income is: ")
    fmt.Println(taxableIncome)
 }

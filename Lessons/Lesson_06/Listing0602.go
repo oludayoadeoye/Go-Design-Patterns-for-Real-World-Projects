@@ -1,9 +1,9 @@
-package main 
+package main
 
 import "fmt"
 
 func main() {
-   for ctr := 1; ctr <= 10; ctr++ {
-      fmt.Println(ctr)
-   }
+	for ctr := 0; ctr <= 24; ctr += 2 {
+		fmt.Println(ctr)
+	}
 }
