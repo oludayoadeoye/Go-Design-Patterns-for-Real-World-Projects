@@ -11,5 +11,7 @@ func main() {
    s = append(s, 10)
    fmt.Println(s)
    s = append(s, 11)
+   s = append(s, 12)
+   s = append(s, 13)
    fmt.Println(s)
 }

@@ -12,7 +12,7 @@ func main() {
    fmt.Println("array type:", reflect.TypeOf(numbers))
 
    // define a slice s based on the numbers array
-   s := numbers[0:4]
+   s := numbers[0:3]
    fmt.Println("slice value:", s)
    fmt.Println("slice type:", reflect.TypeOf(s))
 }
