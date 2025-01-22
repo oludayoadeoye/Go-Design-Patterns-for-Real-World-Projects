@@ -12,7 +12,9 @@ func main() {
 
    sort.Ints(numbers)
    fmt.Println("Sorted Numbers:", numbers)
-
+   fruits := []string{"pear", "pineapple", "mango", "banana", "fig"}
    sort.Sort(sort.Reverse(sort.IntSlice(numbers))) 
+   sort.Sort(sort.Reverse(sort.StringSlice(fruits))) 
    fmt.Println("Sorted Numbers:", numbers)
+   fmt.Println("REVERSED FRUITS:", fruits)
 }
